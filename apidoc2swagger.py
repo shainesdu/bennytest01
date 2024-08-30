@@ -89,7 +89,7 @@ def save_to_json(data, filename):
         json.dump(data, f, ensure_ascii=False, indent=4)
 
 
-#参数是输入的apidoc json文件
+#参数是待转换的apidoc json文件
 input_file = sys.argv[1]
 apidoc_json = load_json(input_file)
 swagger = apidoc_to_swagger3(apidoc_json)
