@@ -1,5 +1,5 @@
 import json
-import sys
+import system
 
 
 # 定义swagger 数据框架
